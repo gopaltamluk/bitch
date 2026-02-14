@@ -23,14 +23,14 @@ gifs.forEach(gifSrc => {
 // changes for when NO button is clicked
 no.addEventListener("click", () => {
   if (count == 2) {
-    gif.src = "../resources/rusure.gif";// gif credit: https://knowyourmeme.com/photos/2738959-mr-fresh-side-eye-cat
+    gif.src = "../resources/rusure.gif"; // gif credit: https://knowyourmeme.com/photos/2738959-mr-fresh-side-eye-cat
     text.innerHTML = "You meant to press YES right?🤨";
     yes.style.height = "65%";
     yes.style.width = "60%";
     no.style.width = "30%";
     count++;
   } else if (count == 3) {
-    gif.src = "../resources/3shocked-1.gif";// gif credit: https://tenor.com/view/tkthao219-peach-goma-gif-25008901
+    gif.src = "../resources/3shocked-1.gif"; // gif credit: https://tenor.com/view/tkthao219-peach-goma-gif-25008901
     text.innerHTML = "Your hand must have slipped right?🥹";
     yes.style.height = "70%";
     yes.style.width = "70%";
@@ -66,4 +66,5 @@ yes.addEventListener("click", () => {
     vid.style.display = "none";
   }, 9000);
 });
+
 
