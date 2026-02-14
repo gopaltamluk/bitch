@@ -6,7 +6,7 @@ const vid = document.querySelector("video");
 let count = 2;
 
 const gifs = [
-  "../resources/cat-heart.gif",
+  "resources/cat-heart.gif",
   "resources/rusure.gif",
   "resources/3shocked-1.gif",
   "resources/4.crying.gif",
@@ -66,6 +66,7 @@ yes.addEventListener("click", () => {
     vid.style.display = "none";
   }, 9000);
 });
+
 
 
 
